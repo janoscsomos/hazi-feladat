@@ -1,7 +1,10 @@
 # BINX DevOps házi feladat
 
 Kedves Jelentkező!
-Üdvözöllek a Binx DevOps csapat felvételi folyamatának a technikai körén. Arra szeretnénk megkérni, hogy az alábbi feladatokat  legjobb tudásod szerint kitöltsd. Ha bármi kérdésed/problémád adódna a kitöltés során, keress minket nyugodtan. Sok sikert!
+Üdvözöllek a Binx DevOps csapat felvételi folyamatának a technikai körén. Arra szeretnénk megkérni, hogy az alábbi feladatokat legjobb tudásod szerint kitöltsd. Ha bármi kérdésed/problémád adódna, keress minket nyugodtan. Sok sikert!
+
+## Mielőtt elekzdenéd
+Kérlek forkold le magadhoz ezt a repositoryt és majd oda töltsd fel a megoldásaidat.
 
 ## Pipeline CI
 A webapp könyvtár egy egyszerű NodeJS alkalmazást tartalmaz, amihez egy githubos pipelinet kéne elkészítened az alábbi követelmények alapján:
