@@ -1,9 +1,9 @@
 # BINX DevOps házi feladat
 
 Kedves Jelentkező!
-Üdvözöllek a Binx DevOps csapat felvételi folyamatának a technikai körén. Arra szeretnénk megkérni, hogy az alábbi feladatokat legjobb tudásod szerint kitöltsd. Ha bármi kérdésed/problémád adódna, keress minket nyugodtan. Sok sikert!
+Üdvözöllek a Binx DevOps csapat felvételi folyamatának a technikai körén. Arra szeretnénk megkérni, hogy az alábbi feladatokat legjobb tudásod szerint töltds ki. Ha bármi kérdésed/problémád adódna, keress minket nyugodtan. Sok sikert!
 
-## Mielőtt elekzdenéd
+## Mielőtt elkezdenéd
 Kérlek forkold le magadhoz ezt a repositoryt és majd oda töltsd fel a megoldásaidat.
 
 ## Pipeline CI
