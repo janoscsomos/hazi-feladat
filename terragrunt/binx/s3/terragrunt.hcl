@@ -1,24 +1,19 @@
-include "provider" {
-  path = find_in_parent_folders("provider.hcl")
+include "root" {
+  path = find_in_parent_folders()
 }
 
 terraform {
-  source = "git::https://github.com/terraform-aws-modules/terraform-aws-s3-bucket.git//.?ref=v4.16.1"
-}
-
-locals {
-  env_vars     = read_terragrunt_config(find_in_parent_folders("environment.hcl"))
-  env_name     =  local.env_vars.locals.environment
+  source = "git::https://github.com/terraform-aws-modules/terraform-aws-s3-bucket.git/.?ref=v3.15.1"
 }
 
 inputs = {
-  bucket = "${var.env_name}-hazi-bucket"
+  bucket = "binx-hazi-bucket"
   acl    = "private"
 
   control_object_ownership = true
   object_ownership         = "ObjectWriter"
 
   versioning = {
-    enabled = 2
+    enabled = 1
   }
 }
