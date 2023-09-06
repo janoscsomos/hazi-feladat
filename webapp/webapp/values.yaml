@@ -7,7 +7,7 @@ replicaCount: 1
 image:
   repository: docker.io/janoscsomos/homework
   pullPolicy: IfNotPresent
-  tag: "02d092824d5bd20c86bd1130134fbc76075d1c36"
+  tag: "latest"
 
 
 service:
