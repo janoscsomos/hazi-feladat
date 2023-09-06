@@ -1,0 +1,24 @@
+appName: webapp-homework
+
+namespace: default
+
+replicaCount: 1
+
+image:
+  repository: docker.io/janoscsomos/homework
+  pullPolicy: IfNotPresent
+  tag: "02d092824d5bd20c86bd1130134fbc76075d1c36"
+
+
+service:
+  type: ClusterIP
+  port: 80
+
+
+resources:  
+  limits:
+    cpu: 100m
+    memory: 128Mi
+  requests:
+    cpu: 50m
+    memory: 16Mi
